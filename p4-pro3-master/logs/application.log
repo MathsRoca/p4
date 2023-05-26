@@ -1,0 +1,229 @@
+2023-05-25 21:22:37 INFO  :100 - El usuario abrió el puerto y esta escuchando
+2023-05-25 21:22:50 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:22:50 INFO  :122 - El usuario se conectó al servidor
+2023-05-25 21:22:50 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:22:55 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:22:56 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:22:56 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:02 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:03 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:04 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:05 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:05 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:06 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:08 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:09 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:09 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:10 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:10 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:10 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:18 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:19 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:19 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:27 INFO  :134 - JA JA, no me dio
+2023-05-25 21:23:27 INFO  :134 - JA JA, no me dio
+2023-05-25 21:23:28 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:23:35 ERROR :69 - Error al procesar la recepcion, cierra todo
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:1025) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:189) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:371) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:348) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:437) ~[?:?]
+	at org.p4.juego.red.Protocolo.procesarRecepcion(Protocolo.java:65) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.iniciar(BatallaFrame.java:135) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.conectar(BatallaFrame.java:123) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.lambda$menuArchivo_Conectar$3(BatallaFrame.java:81) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-05-25 21:24:33 INFO  :100 - El usuario abrió el puerto y esta escuchando
+2023-05-25 21:24:42 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:24:42 INFO  :122 - El usuario se conectó al servidor
+2023-05-25 21:24:42 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:24:51 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:52 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:53 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:54 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:55 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:57 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:58 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:24:58 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:00 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:01 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:01 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:03 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:04 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:05 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:06 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:07 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:07 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:09 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:09 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:09 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:11 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:11 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:12 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:16 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:16 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:17 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:18 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:18 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:20 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:21 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:22 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:25:23 ERROR :69 - Error al procesar la recepcion, cierra todo
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:1025) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:189) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:371) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:348) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:437) ~[?:?]
+	at org.p4.juego.red.Protocolo.procesarRecepcion(Protocolo.java:65) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.iniciar(BatallaFrame.java:135) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.esperarConexion(BatallaFrame.java:102) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.lambda$menuArchivo_EsperarConexion$4(BatallaFrame.java:90) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-05-25 21:29:30 INFO  :74 - El usuario hizo clic en cancel
+2023-05-25 21:29:32 INFO  :100 - El usuario abrió el puerto y esta escuchando
+2023-05-25 21:29:40 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:29:40 INFO  :122 - El usuario se conectó al servidor
+2023-05-25 21:29:40 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:29:43 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:43 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:44 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:46 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:46 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:46 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:48 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:48 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:49 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:49 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:50 INFO  :134 - JA JA, no me dio
+2023-05-25 21:29:50 INFO  :134 - JA JA, no me dio
+2023-05-25 21:29:51 INFO  :134 - JA JA, no me dio
+2023-05-25 21:29:51 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:51 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:51 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:52 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:52 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:53 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:29:56 ERROR :69 - Error al procesar la recepcion, cierra todo
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:1025) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:189) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:371) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:348) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:437) ~[?:?]
+	at org.p4.juego.red.Protocolo.procesarRecepcion(Protocolo.java:65) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.iniciar(BatallaFrame.java:135) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.conectar(BatallaFrame.java:123) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.lambda$menuArchivo_Conectar$3(BatallaFrame.java:81) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+2023-05-25 21:33:17 INFO  :100 - El usuario abrió el puerto y esta escuchando
+2023-05-25 21:33:25 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:33:25 INFO  :122 - El usuario se conectó al servidor
+2023-05-25 21:33:25 INFO  :46 - Comienza escuchando el socket
+2023-05-25 21:33:28 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:28 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:28 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:30 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:31 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:31 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:32 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:33 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:33 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:34 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:34 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:36 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:36 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:36 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:37 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:37 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:37 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:38 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:38 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:39 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:39 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:39 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:39 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:40 INFO  :134 - JA JA, no me dio
+2023-05-25 21:33:40 INFO  :134 - JA JA, no me dio
+2023-05-25 21:33:41 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:41 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:41 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:42 INFO  :134 - JA JA, no me dio
+2023-05-25 21:33:42 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:43 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:43 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:44 INFO  :134 - JA JA, no me dio
+2023-05-25 21:33:44 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:46 INFO  :134 - JA JA, no me dio
+2023-05-25 21:33:46 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:47 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:50 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:50 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:51 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:51 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:52 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:52 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:52 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:53 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:58 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:58 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:58 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:59 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:59 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:59 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:33:59 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:00 INFO  :134 - JA JA, no me dio
+2023-05-25 21:34:00 INFO  :134 - JA JA, no me dio
+2023-05-25 21:34:00 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:01 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:01 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:01 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:02 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:06 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:08 INFO  :30 - ========= Compruebo ganador =========
+2023-05-25 21:34:15 ERROR :69 - Error al procesar la recepcion, cierra todo
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:1025) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:189) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:371) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:348) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:437) ~[?:?]
+	at org.p4.juego.red.Protocolo.procesarRecepcion(Protocolo.java:65) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.iniciar(BatallaFrame.java:135) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.esperarConexion(BatallaFrame.java:102) ~[classes/:?]
+	at org.p4.juego.gui.BatallaFrame.lambda$menuArchivo_EsperarConexion$4(BatallaFrame.java:90) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
